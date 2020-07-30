@@ -1,0 +1,8 @@
+.component-results {
+  margin: 0 120px;
+}
+.component-results .button {
+  border: none;
+  width: 40px;
+  display: inline-flex;
+}

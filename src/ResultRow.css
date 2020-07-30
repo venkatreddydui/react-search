@@ -1,0 +1,53 @@
+button{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 32px;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  display: flex;
+  flex-basis: 100%;
+}
+
+.component-result-row:hover {
+  background-color: #eee;
+}
+
+.component-result-row img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.component-result-row .title {
+  position: relative;
+  top: -8px;
+}
+
+.component-result-row .info {
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 10px;
+  color: #ccc;
+  display: none;
+}
+
+.component-result-row:hover .info {
+  display: inline-block;
+}
+
+.component-result-row .address{
+  float: left;
+}
+
+button .header {
+  float: left;
+}
+
+button .title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
